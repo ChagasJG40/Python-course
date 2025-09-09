@@ -1,0 +1,22 @@
+def decompor_numero():
+  """
+  Lê um número entre 0 e 9999 e mostra na tela a sua decomposição em
+  unidade, dezena, centena e milhar.
+  """
+  numero = int(input('Digite um número entre 0 e 9999: '))
+
+  if 0 <= numero <= 9999:
+    unidade = numero // 1 % 10
+    dezena = numero // 10 % 10
+    centena = numero // 100 % 10
+    milhar = numero // 1000 % 10
+
+    print(f'Unidade: {unidade}')
+    print(f'Dezena: {dezena}')
+    print(f'Centena: {centena}')
+    print(f'Milhar: {milhar}')
+  else:
+    print('O número digitado não está entre 0 e 9999.')
+
+# Chama a função para executar o código
+decompor_numero()
