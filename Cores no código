@@ -1,0 +1,5 @@
+#a = 10
+#b = 7
+#print('Os valores são \033[36m{}\033[m e \033[31m{}\033[m!!!'.format(a,b))
+nome = 'George'
+print('Olá muito prazer em te conhecer, {}{}{}!'.format('\033[4;33m' ,nome,'\033[m' ))
