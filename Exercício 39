@@ -1,0 +1,17 @@
+from datetime import date
+atual = date.today().year
+ano = int(input('Digite o ano do seu nascimento:'))
+idade = atual-ano
+print('Quem nasceu em {}, tem {} anos em {}.'.format(ano, idade, atual))
+if idade == 18:
+    print('Você precisa se alistar IMEDIATAMENTE')
+elif idade > 18:
+    saldo = idade - 18
+    print('Você já estourou o prazo de alistamento em {} anos.'.format(saldo))
+    alistamento = atual - saldo
+    print('Seu alistamento era para ter ocorrido no ano de {}'.format(alistamento))
+elif idade < 18:
+    saldo = 18 - idade
+    print(' Você ainda não possui a idade permitida. Ainda faltam {} anos para o alistamento'.format(saldo))
+    alistamento = atual + saldo
+    print('Seu alistamento deverá ser realizado no ano de {}'.format(alistamento))
