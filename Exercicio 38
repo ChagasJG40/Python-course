@@ -1,0 +1,8 @@
+num1 = int(input('Escreva o primeiro número:'))
+num2 = int(input('Escreva o segundo número:'))
+if num1 > num2:
+    print('O primeiro número é Maior')
+elif num2 > num1:
+    print('O Segundo é número é Maior')
+else:
+    print('Os números são iguais!')
