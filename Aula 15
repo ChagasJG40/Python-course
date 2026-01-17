@@ -1,0 +1,17 @@
+'''cont = 1
+while cont <= 10:
+    print(cont, '->' ,end='')
+    cont+= 1
+print('Acabou.')'''
+'''num = s = 0
+while True:
+    num = int(input('Digite um número: '))
+    if num == 999:
+        break
+    s += num
+# print('A soma vale {}'. format(s))
+print(f'A Soma vale: {s}')'''
+
+nome = 'jose'
+idade = 33
+print(f'O {nome}, tem {idade} anos')
