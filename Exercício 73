@@ -1,0 +1,14 @@
+print('=-=' * 50)
+time = ('Palmeiras', 'Flamengo', 'Internacional', 'Grêmio',
+        'São Paulo', 'Atlético-MG', 'Athletico-PR', 'Cruzeiro', 'Botafogo',
+        'Santos', 'Bahia', 'Fluminense', 'Corinthians', 'Chapecoense', 'Ceará',
+        'Vasco', 'América-MG', 'Sport', 'Vitória')
+print(f'Lista de times {time}')
+print('=-=' * 50)
+print(f'Os 5 primeiros colocados são {time[0:5]}')
+print('=-=' * 50)
+print(f'Os 4 últimos colocados são{time[15:]}')
+print('=-=' * 50)
+print(sorted(time))
+print('=-=' * 50)
+print(f'A chapecoense está na {time.index("Chapecoense")+1}ª posição!!!')
