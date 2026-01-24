@@ -1,0 +1,32 @@
+#lanche = ('hamburguer', 'suco', 'pizza', 'pudim', 'batata frita')
+#for cont in range (0, len(lanche)):
+ #   print(f' Eu vou comer muito {lanche[cont]} na posição{cont}')
+ #for comida in lanche:
+    #print(f'Eu vou comer {comida} ')
+#print(len(lanche))
+#print(lanche[1:3])
+#print(lanche[1])
+#print(lanche[2])
+#print(lanche[1:])
+#print(lanche[:3])
+#print(lanche[-2:])
+#print(lanche)
+#for pos, comida in enumerate (lanche):
+ #   print(f'Eu vou comer {comida} na posição {pos}')
+#print('Comi demais!!!')
+#print(sorted(lanche))
+
+#TUPLAS SÃO IMUTÁVEIS.
+
+print('=' * 30)
+
+#a = (2, 5, 4)
+#b = (5, 8, 1, 2)
+#c = a + b
+#d = b + a
+#print(c)
+#print(d)
+#print(c.count(5))  #quantas vezes aparece o número 5 nas variáveis.
+#print(c.index(4))
+pessoa = ('George', 45, 'Masculino', 92.5)
+print(pessoa)
