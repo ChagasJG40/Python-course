@@ -1,0 +1,8 @@
+palavra = ('luz', 'janela', 'carro', 'aviao', 'eco', 'desenho', 'osso', 'paralelepipedo', 'ginasio')
+for p in palavra:
+    print(f'\n Na palavra {p.upper()}, temos ', end='')
+    for letra in p:
+        if letra.lower() in 'aeiou':
+            print(letra, end=' ')
+
+
