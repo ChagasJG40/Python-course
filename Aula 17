@@ -1,0 +1,11 @@
+num = [2, 4, 3, 5, 7, 6, 9]
+num[3] = 12
+num.append(15)
+num.sort(reverse=True)
+num.insert(2, 2)
+if 16 in num:
+        num.remove(16)
+else:
+    print('Não achei o número 16 na lista.')
+print(num)
+print(f'Essa lista tem {len(num)} números')
