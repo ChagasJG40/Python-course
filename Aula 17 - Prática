@@ -1,0 +1,31 @@
+#num = [2, 4, 3, 5, 7, 6, 9]
+#num[3] = 12
+#num.append(15)
+#num.sort(reverse=True)
+#num.insert(2, 2)
+#if 16 in num:
+#        num.remove(16)
+#else:
+#    print('Não achei o número 16 na lista.')
+#print(num)
+#print(f'Essa lista tem {len(num)} números')
+
+
+
+from time import sleep
+#valores = []
+#for cont in range(0, 8):
+#   valores.append(int(input('Digite um valor: ')))
+#valores.append(7)
+#valores.append(3)
+#valores.append(5)
+#for c, v in enumerate(valores):
+#   print(f'Na posição {c}, encontrei a posição {v}!')
+#print('Cheguei ao final da lista!')
+
+a = [2, 4, 5, 7]
+b = a [:]
+b [2] = 8
+print(f'A lista A: {a}')
+print(f'A lista B: {b}')
+
