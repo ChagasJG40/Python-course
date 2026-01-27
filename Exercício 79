@@ -1,0 +1,16 @@
+listaNum = list()
+while True:
+    n = int(input('Digite um número: '))
+    if n not in listaNum:
+        listaNum.append(n)
+        print('Valor adicionado com sucesso.')
+    else:
+        print('Valor duplicado, não será inserido!')
+    resp = str(input('Quer continuar? [S/N]: '))
+    if resp in  'Nn':
+        break
+print('-=-'* 30)
+listaNum.sort()
+print(f'Você digitou o valor de {listaNum}')
+
+
