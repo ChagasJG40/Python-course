@@ -1,4 +1,4 @@
-pessoas = {'nome': 'George', 'idade': 44, 'sexo': 'M'}
+pessoas = {'nome': 'George harisson', 'idade': 44, 'sexo': 'M'}
 print(pessoas['nome'])
 print(f'O {pessoas["nome"]}, tem {pessoas["idade"]} anos de idade.')
 print(pessoas.keys())
