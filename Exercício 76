@@ -1,6 +1,6 @@
 listagem = ('Lapis', 1.75, 'Tesoura', 12.25, 'Caderno', 22.50, 'Borracha', 2.35,
             'Estojo', 11.80, 'Régua', 1.80, 'Transferidor', 8.00, 'Fichário', 30.00,
-            'Resma', 21.90, 'Cola', 5.50, 'Isopor', 3.00, 'Cartolina', 0.78, 'Mochila', 158.00)
+            'Resma', 21.90, 'Cola', 5.50, 'Isopor', 3.00, 'Cartolina', 0.78, 'Mochila', 150.00)
 print('='*39)
 print(f'{"LISTAGEM DE PREÇOS":^39}')
 print('='*39)
