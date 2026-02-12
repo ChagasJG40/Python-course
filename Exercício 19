@@ -6,3 +6,4 @@ al4 = input('Digite o nome do quarto aluno:')
 lista = [al1, al2, al3, al4]
 escolhido = random.choice(lista)
 print('O aluno escolhido foi {}'.format(escolhido))
+
