@@ -1,0 +1,10 @@
+def área(lar, compr):
+    a = lar * compr
+    print(f'A áre de um terreno com a {lar} x {compr} é de {a} m².')
+
+#programa principal
+print(' Controle de terrenos ')
+print('-'*25)
+l = float(input('Digite a largura (m): '))
+c = float(input('Digite o comprimento (m): '))
+área(l, c)
