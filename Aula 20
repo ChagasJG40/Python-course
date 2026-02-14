@@ -1,0 +1,9 @@
+def soma (a, b):
+    print(f'A = {a} e B = {b}')
+    s = a + b
+    print(f' A soma de a + b = {s}')
+
+#programa principal
+soma(4, 6)
+soma(7, 9)
+soma(8, 2)
