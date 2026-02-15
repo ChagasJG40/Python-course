@@ -8,4 +8,4 @@ print('a prestação será de R${:.2f}'.format(prestação))
 if prestação <= mínimo:
     print('Empréstimo pode ser CONCEDIDO')
 else:
-    print('Empréstimo RECUSADO')
+    print('Empréstimo Não Realizado')
