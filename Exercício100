@@ -3,8 +3,8 @@ from time import sleep
 
 
 def sorteia(lista):
-    print('Sorteando 5 valores aleatórios...', end='')
-    for cont in range (0, 5):
+    print('Sorteando 6 valores aleatórios...', end='')
+    for cont in range (0, 6):
         n = randint(1, 10)
         lista.append(n)
         print(f'{n} ', end=' ', flush=True)
