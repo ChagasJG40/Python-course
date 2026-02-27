@@ -8,4 +8,5 @@ e = n1 ** n2
 di = n1 // n2
 rd = n1 % n2
 print('O valor da soma {}, a subtração é {} e a multiplicação é {}'.format(s, su, m), end='')
+
 print('O valor da divisão é {:.3f}, do exponencial é {}, da divisão inteira é {}, e do resto da divisão é {}'.format(d, e, di, rd))
