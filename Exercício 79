@@ -1,6 +1,6 @@
 listaNum = list()
 while True:
-    n = int(input('Digite um número: '))
+    n = int(input('Digite um número:'))
     if n not in listaNum:
         listaNum.append(n)
         print('Valor adicionado com sucesso.')
