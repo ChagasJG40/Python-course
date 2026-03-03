@@ -4,7 +4,7 @@ impares = list()
 while True:
     valores.append(int(input('Digite um número: ')))
     res = str(input('Quer Continuar? [S/N]'))
-    if res in 'Nn':
+    if res in 'Nm':
         break
 for i, v in enumerate(valores):
     if v % 2 == 0:
