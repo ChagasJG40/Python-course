@@ -4,7 +4,7 @@ itens = ('pedra', 'papel', 'tesoura')
 computador = randint (0, 2)
 print(''' Suas opções:
 [0] Pedra
-[1] Papel
+[1] Grafite
 [2] Tesoura''')
 jogador = int(input('Qual é sua jogada: '))
 print('JO')
